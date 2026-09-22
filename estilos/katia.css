@@ -2,9 +2,9 @@ body{
     max-width: 1200px;
     max-width: 0 auto;
     padding: 15px;
-    background: url(../imagens/maomao-wpp.jpg) no-repeat center;
-   
-
+    background-image: url(../imagens/wpp-konoha.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
@@ -25,32 +25,35 @@ li{
 }
 
 a{
-    color: white;
+    color: #3400ee;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.925);
 }
 
-a:hover{   
-    color: rgb(230, 21, 177);
+a:hover{
+    color: #FFE047;
     transition: 0.3s all;
-
 }
 
 .rede-1{
-    border: 2px solid rgb(230, 21, 177);
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .rede-2{
-    border: 2px solid  rgb(236, 120, 12);
-    border-radius: 20px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
+    border-radius: 30px;
 }
 
 .rede-3{
-    border: 2px solid ;
-    color: 	#e3a000;
-    border-radius: 20px;
+    color: #b3b95d;
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
+    border-radius: 30px;
 }
 
 h1{
@@ -58,43 +61,34 @@ h1{
     color: white;
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    height: 80vh;
-}
-
 h2{
     font-size: 56px;
-    line-height: 10px;
+    color: white;
 }
 
 aside{
     max-width: 650px;
     margin: 40px auto;
     width: 90%;
-    background: rgba(130, 0, 90, 0.25);
-    border: 1px solid rgba(215, 72, 171, 0.4);
+    background: rgba(80, 75, 26, 0.301);
+    border: 1px solid 2px solid rgba(219, 255, 12, 0.3);
     border-radius: 15px;
     padding: 30px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 30px rgba(219, 255, 12, 0.3);
 }
 
 span{
-    color: rgb(230, 21, 177);
+    color: #b68d1bc7;
 }
-
 
 .b{
-    color: #50ec0d;
+    color: #1d8f30;
 }
 
-p{  color: #e3a000;
-    line-height: 20px;
-    max-width: 500px;
+p{
+    color: #1d8f30;
 }
 
 footer{
@@ -103,31 +97,24 @@ footer{
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 26px;
-    border-radius: 20px;
     background: rgba(15, 25, 18, 0.6);
-    border: 1px solid rgba(212,110,216,0.3);
-    box-shadow: 0 0 15px rgba(212,110,216,0.3) inset 0 0 10px rgba(26,194, 68, 0.2);
     backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
     width: auto;
     max-width: 100%;
     text-align: center;
 }
 
-
-footer span{
-    color: #82005A;
-    font-size: 13px;
+.footer span{
+    color: #ffae18;
+    font-size: 14px ;
     letter-spacing: 1px;
-    text-shadow: 0 0 5px rgba(212, 110, 216, 0.6);
-
 }
 
 .imagem{
-    width: 30px;
+    width: 60px;
     height: 40px;
     object-fit: cover;
-    border: 1px solid #d46ed8;
+    border: 1px solid #1d8f30;
 }
 
 .denji{
